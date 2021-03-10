@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CandySort xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="input.xsd">
+    <Candy>
+        <Name>Red mage</Name>
+        <Energy>530</Energy>
+        <Chocolatetype>dark</Chocolatetype>
+        <Production>Roshen</Production>
+
+        <Ingredients>
+            <Water>80</Water>
+            <Sugar>15</Sugar>
+            <Fructose>10</Fructose>
+            <Vanilla>1</Vanilla>
+        </Ingredients>
+
+    </Candy>
+
+    <Candy>
+        <Name>Blue mage</Name>
+        <Energy>590</Energy>
+        <Chocolatetype>white</Chocolatetype>
+        <Production>NotRoshen</Production>
+
+        <Ingredients>
+            <Water>100</Water>
+            <Sugar>80</Sugar>
+            <Fructose>8</Fructose>
+            <Vanilla>2</Vanilla>
+        </Ingredients>
+    </Candy>
+
+    <Candy>
+        <Name>Yellow mage</Name>
+        <Energy>560</Energy>
+        <Chocolatetype>milk</Chocolatetype>
+        <Production>TotallyNotRoshen</Production>
+
+        <Ingredients>
+            <Water>120</Water>
+            <Sugar>60</Sugar>
+            <Fructose>12</Fructose>
+            <Vanilla>2</Vanilla>
+        </Ingredients>
+    </Candy>
+</CandySort>
