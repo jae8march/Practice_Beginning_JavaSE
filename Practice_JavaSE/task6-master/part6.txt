@@ -1,0 +1,12 @@
+Since BrainFuck consists of only these 8 commands, 
+building an interpreter for BrainFuck is quite simple. 
+In this article, 
+we will build a simple program which takes a BrainFuck code 
+as input and produces the desired output. 
+We will simply accept the BrainFuck code as a String and produce 
+the output by parsing the String and checking every character for 
+its actual functionality. The memory is represented by an array of byte 
+type simulating memory of max 65535 bits from 0 to 65534
+(65535 is the highest number which can be represented by an unsigned 
+16-bit binary number). 
+The variable ptr refers to the current index of the memory array.

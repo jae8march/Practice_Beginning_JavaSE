@@ -1,0 +1,2 @@
+Brainfuck consists of eight simple commands and an instruction pointer.
+Brainfuck — язык программирования, и он состоит из восьми команд.
